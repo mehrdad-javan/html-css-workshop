@@ -1,74 +1,105 @@
-/* Global Styles */
-body {
+ /* Global Styles */
+ body {
     font-family: 'Arial', sans-serif;
-    background-color: #d4d0d0;
-    color: #333;
+    background-color: #2b2b2b; /* Dark background color for a professional look */
+    color: #fff; /* Light text color for contrast */
     margin: 0;
     padding: 0;
 }
 
+/* Navbar Styles */
+nav {
+    background-color: #1a1a1a; /* Dark gray background color for the navbar */
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff; /* White text color for navbar links */
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #ff4242; /* Coral red color on hover */
+}
+
 /* Header Styles */
 header {
-    background-color: #d10000; /* Red background color */
+    background-color: #e43a3a; /* Coral red background color */
     color: #ffffff;
     text-align: center;
     padding: 20px;
 }
 
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+}
+
 /* Section Styles */
 section {
-    margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
 }
 
 /* Heading Styles */
 h2 {
-    color: #4CAF50; /* Green color */
+    color: #ffffff; /* White color for headings */
     text-align: center;
+    margin-bottom: 20px;
 }
 
 /* Product Styles */
 .product {
     margin: 0 auto 20px;
-    padding: 10px;
+    padding: 20px;
     max-width: 600px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    color: #2b2b2b; /* Dark text color for product details */
+    background-color: #f5f5f5; /* Light gray background color for product cards */
+    border-radius: 10px;
 }
 
 /* Product Image Styles */
 .product img {
     max-width: 100%;
     height: auto;
-    border-radius: 5px;
-    margin-top: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
 }
 
 /* Email Field Styles */
 .email-field {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 /* Button Styles */
 button {
-    background-color: #4CAF50; /* Green color */
+    background-color: #007bff; /* Blue color for buttons */
     color: #fff;
-    padding: 8px 12px;
+    padding: 12px 16px;
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
 }
 
 /* Footer Styles */
 .footer {
-    margin-top: 20px;
     padding: 20px;
-    background-color: #000000; /* Black background color */
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #1a1a1a; /* Dark gray background color for the footer */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
     text-align: center;
     color: #fff;
 }
